@@ -9,20 +9,20 @@ export function Hero() {
     const router = useRouter()
 
     return (
-        <section className="relative flex min-h-[80vh] items-center justify-center overflow-hidden bg-gradient-to-br from-primary to-secondary px-4 py-20 text-white">
+        <section className="relative flex min-h-[80vh] items-center justify-center overflow-hidden px-4 py-20 text-white">
             {/* Background Image */}
-            <div className="absolute inset-0 -z-10">
+            <div className="absolute inset-0 z-0">
                 <img
-                    src="/images/hero-business-qatar.jpg"
-                    alt="Business in Qatar"
+                    src="/images/hero-credenza-qatar-1.png"
+                    alt="Credenza Business Consultancy - Corporate Office in Doha"
                     className="h-full w-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-secondary/90" />
+                <div className="absolute inset-0 bg-gradient-to-br from-secondary/20 to-secondary/20 mix-blend-multiply" />
             </div>
             <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
             <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-white/10 opacity-20 blur-[100px]"></div>
 
-            <div className="container mx-auto text-center">
+            <div className="container mx-auto text-center relative z-10">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}

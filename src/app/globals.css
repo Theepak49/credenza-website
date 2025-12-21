@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #8B1E24;
+  --color-primary: #591C31;
   --color-primary-foreground: #ffffff;
-  --color-secondary: #111111;
+  --color-secondary: #3E4E63;
   --color-secondary-foreground: #ffffff;
   --color-muted: #f5f5f5;
-  --color-muted-foreground: #737373;
+  --color-muted-foreground: #666666;
 
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-outfit);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 :root {
@@ -41,4 +41,23 @@ a[href*="nextjs.org"],
 a[href*="vercel.com"] {
   display: none !important;
   pointer-events: none !important;
+}
+
+@layer utilities {
+  .bg-pattern {
+    background-color: #ffffff;
+    background-image: radial-gradient(#3E4E63 0.5px, transparent 0.5px), radial-gradient(#3E4E63 0.5px, #ffffff 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    opacity: 1;
+  }
+
+  /* Alternative softer wave-like gradient if dot is too technical, but dot is clean */
+  .bg-soft-gradient {
+    background-color: #ffffff;
+    background-image:
+      radial-gradient(at 40% 20%, hsla(347, 49%, 46%, 0.03) 0px, transparent 50%),
+      radial-gradient(at 80% 0%, hsla(212, 23%, 32%, 0.03) 0px, transparent 50%),
+      radial-gradient(at 0% 50%, hsla(347, 49%, 46%, 0.03) 0px, transparent 50%);
+  }
 }

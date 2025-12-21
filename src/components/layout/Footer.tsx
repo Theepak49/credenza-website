@@ -44,7 +44,7 @@ export function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="mt-12 pt-8 border-t border-gray-800 text-center text-sm text-gray-500">
+                <div className="mt-12 pt-8 text-center text-sm text-gray-500">
                     © {new Date().getFullYear()} Credenza Business Consultancy. All rights reserved.
                 </div>
             </div>

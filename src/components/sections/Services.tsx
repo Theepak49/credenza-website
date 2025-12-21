@@ -15,16 +15,6 @@ const services = [
         icon: FileText,
     },
     {
-        title: "Translation Services",
-        description: "Fast & affordable translation services you can trust.",
-        icon: Globe,
-    },
-    {
-        title: "Notary Services",
-        description: "Fast and hassle-free notary attestation services for you.",
-        icon: Stamp,
-    },
-    {
         title: "Local Sponsorship",
         description: "Qatari sponsorship tailored to your business needs.",
         icon: Users,

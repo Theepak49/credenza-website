@@ -59,7 +59,7 @@ export default function BlogPage() {
                         {blogPosts.map((post, index) => (
                             <Reveal key={post.id} delay={index * 0.1}>
                                 <article className="bg-white shadow-lg hover:shadow-xl rounded-lg overflow-hidden transition-all group">
-                                    <div className="h-48 bg-gradient-to-br from-primary/80 to-secondary/80 flex items-center justify-center">
+                                    <div className="h-48 bg-gradient-to-br flex items-center justify-center">
                                         <span className="text-white text-6xl opacity-20">📝</span>
                                     </div>
                                     <div className="p-6">
@@ -91,14 +91,14 @@ export default function BlogPage() {
                         ))}
                     </div>
 
-                    <Reveal delay={0.4}>
+                    {/* <Reveal delay={0.4}>
                         <div className="text-center mt-12">
                             <p className="text-muted-foreground mb-4">More content coming soon!</p>
                             <Link href="/contact">
                                 <Button>Contact Us</Button>
                             </Link>
                         </div>
-                    </Reveal>
+                    </Reveal> */}
                 </div>
             </section>
         </div>

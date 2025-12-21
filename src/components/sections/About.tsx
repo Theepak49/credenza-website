@@ -21,7 +21,7 @@ export function About() {
                                 alt="Professional Team"
                                 className="w-full h-full object-cover"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20" />
+                            <div className="absolute inset-0 bg-gradient-to-br" />
                         </div>
                         <div className="absolute -bottom-6 -right-6 h-24 w-24 bg-primary rounded-xl flex items-center justify-center text-white font-bold shadow-lg">
                             Trusted

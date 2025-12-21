@@ -4,7 +4,8 @@ import * as React from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Menu, X, Phone, Mail, Facebook, Instagram, Linkedin, Twitter, Youtube, MessageCircle, ChevronDown } from "lucide-react"
+import { Menu, X, Phone, Mail, Facebook, Instagram, Linkedin, Twitter, Youtube, ChevronDown } from "lucide-react"
+import { WhatsApp } from "@/components/icons/WhatsApp"
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { usePathname } from "next/navigation"
@@ -37,9 +38,7 @@ export function Header() {
     const serviceItems = [
         { name: "Company Formation", href: "/services#company-formation" },
         { name: "PRO Services", href: "/services#pro-services" },
-        { name: "Translation Services", href: "/services#translation" },
         { name: "Certificate Attestation", href: "/services#attestation" },
-        { name: "Notary Services", href: "/services#notary" },
         { name: "Legal Services", href: "/services#legal" },
     ]
 
@@ -60,7 +59,7 @@ export function Header() {
                     </div>
                     <div className="flex items-center gap-3">
                         <Link href="https://wa.me/97412345678" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" aria-label="WhatsApp">
-                            <MessageCircle className="h-4 w-4" />
+                            <WhatsApp className="h-4 w-4" />
                         </Link>
                         <Link href="#" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" aria-label="Facebook">
                             <Facebook className="h-4 w-4" />
@@ -117,7 +116,7 @@ export function Header() {
                                 {/* Desktop Dropdown */}
                                 {item.hasDropdown && (
                                     <div className="absolute top-full left-0 w-56 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
-                                        <div className="bg-white rounded-xl shadow-xl border border-border overflow-hidden p-2">
+                                        <div className="bg-white rounded-xl shadow-2xl overflow-hidden p-2">
                                             {serviceItems.map((service) => (
                                                 <Link
                                                     key={service.name}
@@ -153,7 +152,7 @@ export function Header() {
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: "auto" }}
                             exit={{ opacity: 0, height: 0 }}
-                            className="bg-background md:hidden overflow-hidden shadow-lg border-t"
+                            className="bg-background md:hidden overflow-hidden shadow-2xl"
                         >
                             <div className="flex flex-col p-4 space-y-2">
                                 {navItems.map((item) => (

@@ -66,7 +66,7 @@ export default function ServicesPage() {
                                 </p>
 
                                 <div className="bg-secondary text-secondary-foreground p-8 rounded-xl">
-                                    <h3 className="text-xl font-bold mb-4 text-primary">WE PROVIDE BUSINESS SETUP & PRO SERVICES IN QATAR</h3>
+                                    <h3 className="text-xl font-bold mb-4 text-white">WE PROVIDE BUSINESS SETUP & PRO SERVICES IN QATAR</h3>
                                     <ul className="space-y-3">
                                         {[
                                             "100% Foreign Ownership",
@@ -75,7 +75,7 @@ export default function ServicesPage() {
                                             "Fast and streamlined processes"
                                         ].map((item, index) => (
                                             <li key={index} className="flex items-center gap-3">
-                                                <CheckCircle className="h-5 w-5 text-primary" />
+                                                <CheckCircle className="h-5 w-5 text-white" />
                                                 <span>{item}</span>
                                             </li>
                                         ))}
@@ -104,9 +104,8 @@ export default function ServicesPage() {
             </section>
 
             {/* Translation Services Section */}
-            <section className="py-20 bg-secondary text-secondary-foreground">
-                <div className="container mx-auto px-4">
-                    {/* Translation Services Hero Image */}
+            {/* <section className="py-20 bg-secondary text-secondary-foreground">
+                <div className="container mx-auto px-4"> 
                     <Reveal>
                         <div className="relative h-[400px] w-full rounded-2xl overflow-hidden mb-12">
                             <img
@@ -114,7 +113,7 @@ export default function ServicesPage() {
                                 alt="Translation Services"
                                 className="h-full w-full object-cover"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-secondary/80 flex items-center justify-center text-white p-8">
+                            <div className="absolute inset-0 bg-gradient-to-r flex items-center justify-center text-white p-8">
                                 <div className="text-center max-w-3xl">
                                     <h2 className="text-3xl md:text-4xl font-bold mb-2">TRANSLATION SERVICES</h2>
                                     <h3 className="text-xl font-bold mb-4 text-white/80">BEST PRICED TRANSLATION SERVICES</h3>
@@ -150,7 +149,7 @@ export default function ServicesPage() {
                         </div>
                     </Reveal>
 
-                    {/* <Reveal delay={0.2}>
+                    <Reveal delay={0.2}>
                         <div className="bg-white/5 p-8 rounded-2xl shadow-xl shadow-black/20">
                             <h4 className="text-lg font-bold mb-6 text-center">We assist you for any type of content to be translated in various languages includes:</h4>
                             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
@@ -161,9 +160,9 @@ export default function ServicesPage() {
                                 ))}
                             </div>
                         </div>
-                    </Reveal> */}
+                    </Reveal> 
                 </div>
-            </section>
+            </section> */}
 
             {/* Corporate PRO Services */}
             <section className="py-20 bg-white">
@@ -176,8 +175,8 @@ export default function ServicesPage() {
                                     alt="PRO Services"
                                     className="h-full w-full object-cover"
                                 />
-                                <div className="absolute inset-0 bg-gradient-to-br from-primary/95 to-secondary/90 flex items-center justify-center p-10">
-                                    <h2 className="text-2xl md:text-3xl font-bold text-white leading-tight">FOCUS ON YOUR CORE BUSINESS PLANS AND OPERATION & WE WILL CLEAR THE PATH WITH STREAMLINED LICENSE, VISA, & GOVERNMENT SERVICES</h2>
+                                <div className="absolute inset-0 bg-gradient-to-br flex items-center justify-center p-10">
+                                    <h2 className="text-2xl md:text-3xl font-bold text-black/80 leading-tight">FOCUS ON YOUR CORE BUSINESS PLANS AND OPERATION & WE WILL CLEAR THE PATH WITH STREAMLINED LICENSE, VISA, & GOVERNMENT SERVICES</h2>
                                 </div>
                             </div>
                         </Reveal>
@@ -247,9 +246,8 @@ export default function ServicesPage() {
             </section>
 
             {/* Certificate & Notary Attestation - Modern Design */}
-            <section className="py-24 bg-gradient-to-b from-muted/30 to-white">
-                <div className="container mx-auto px-4">
-                    {/* Modern Header */}
+            {/* <section className="py-24 bg-gradient-to-b from-muted/30 to-white">
+                <div className="container mx-auto px-4"> 
                     <Reveal>
                         <div className="text-center mb-20">
                             <div className="inline-block px-6 py-2 bg-primary/10 rounded-full mb-6">
@@ -263,13 +261,11 @@ export default function ServicesPage() {
                             </p>
                         </div>
                     </Reveal>
-
-                    {/* Main Content Grid */}
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
-                        {/* Column 1 - Certificate Attestation */}
+ 
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16"> 
                         <Reveal>
                             <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-shadow h-full flex flex-col">
-                                {/* Icon and Title */}
+                                
                                 <div className="flex items-center gap-4 mb-6">
                                     <div className="w-14 h-14 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-xl flex items-center justify-center border-2 border-primary/20 shrink-0">
                                         <BadgeCheck className="w-7 h-7 text-primary" />
@@ -281,15 +277,13 @@ export default function ServicesPage() {
                                     We offer comprehensive certificate attestation services with years of experience and a high level of credibility.
                                 </p>
 
-                                <div className="space-y-4">
-                                    {/* CTA Banner */}
-                                    <div className="bg-gradient-to-r from-primary via-primary/90 to-secondary p-4 rounded-xl">
+                                <div className="space-y-4"> 
+                                    <div className="bg-gradient-to-r p-4 rounded-xl">
                                         <p className="text-white font-bold text-sm text-center">
                                             ✓ Authenticate & Legalize Your Documents!
                                         </p>
                                     </div>
-
-                                    {/* Certificate Types */}
+ 
                                     <div>
                                         <h4 className="font-bold text-foreground mb-3 text-xs uppercase tracking-wide">Document Types</h4>
                                         <div className="grid grid-cols-1 gap-3">
@@ -310,10 +304,9 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                         </Reveal>
-
-                        {/* Column 2 - Notary Services */}
+ 
                         <Reveal delay={0.1}>
-                            <div className="bg-gradient-to-br from-primary to-secondary rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-shadow text-white h-full flex flex-col">
+                            <div className="bg-gradient-to-br rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-shadow text-white h-full flex flex-col">
                                 <div className="flex items-center gap-4 mb-6">
                                     <div className="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center border border-white/30 shrink-0">
                                         <Stamp className="w-7 h-7 text-white" />
@@ -340,9 +333,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                         </Reveal>
-
-
-                        {/* Column 3 - Trusted by Businesses (Image) */}
+ 
                         <Reveal delay={0.2}>
                             <div className="relative h-full min-h-[400px] rounded-3xl overflow-hidden shadow-xl group">
                                 <Image
@@ -369,7 +360,7 @@ export default function ServicesPage() {
                         </Reveal>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     );
 }
