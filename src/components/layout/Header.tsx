@@ -50,7 +50,7 @@ export function Header() {
                     <div className="flex gap-6">
                         <div className="flex items-center gap-2">
                             <Phone className="h-3 w-3" />
-                            <span>+974 1234 5678</span>
+                            <span>+974 3012 9065</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Mail className="h-3 w-3" />
@@ -58,7 +58,7 @@ export function Header() {
                         </div>
                     </div>
                     <div className="flex items-center gap-3">
-                        <Link href="https://wa.me/97412345678" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" aria-label="WhatsApp">
+                        <Link href="https://wa.me/97430129065" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" aria-label="WhatsApp">
                             <WhatsApp className="h-4 w-4" />
                         </Link>
                         <Link href="#" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" aria-label="Facebook">

@@ -38,8 +38,7 @@ export function Contact() {
                             </div>
                             <div>
                                 <h3 className="font-semibold mb-1">Call Us</h3>
-                                <p className="text-muted-foreground">+974 1234 5678</p>
-                                <p className="text-muted-foreground">+974 8765 4321</p>
+                                <p className="text-muted-foreground">+974 3012 9065</p>
                             </div>
                         </div>
 

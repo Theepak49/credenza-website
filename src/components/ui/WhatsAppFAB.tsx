@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function WhatsAppFAB() {
     // Replace with your actual WhatsApp number (include country code without + or -)
-    const whatsappNumber = "97412345678"; // Example: Qatar number
+    const whatsappNumber = "97430129065"; // Example: Qatar number
     const message = encodeURIComponent("Hello! I would like to inquire about your services.");
 
     return (
