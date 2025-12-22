@@ -40,7 +40,7 @@ export function Footer() {
                         <ul className="space-y-2 text-sm text-gray-400">
                             <li>Doha, Qatar</li>
                             <li>info@credenza.com</li>
-                            <li>+974 1234 5678</li>
+                            <li>+974 3012 9065</li>
                         </ul>
                     </div>
                 </div>
