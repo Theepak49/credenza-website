@@ -6,22 +6,27 @@ import { Building2, FileText, Globe, Stamp, Users, Briefcase } from "lucide-reac
 const services = [
     {
         title: "Company Formation",
-        description: "Start your dream company setup with low cost & fast processing.",
+        description: "Hassle-free business setup services for Mainland and Free Zone companies in Qatar.",
         icon: Building2,
     },
     {
-        title: "PRO Services",
-        description: "Documenting all the paper works based on your specific needs.",
-        icon: FileText,
-    },
-    {
-        title: "Local Sponsorship",
-        description: "Qatari sponsorship tailored to your business needs.",
+        title: "Local Sponsorship Arrangement",
+        description: "Reliable and transparent local sponsorship solutions as per Qatar law.",
         icon: Users,
     },
     {
-        title: "Visa Services",
-        description: "Your trusted partner for every professional visa service.",
+        title: "Branding",
+        description: "Professional branding services to build a strong and credible business identity.",
+        icon: Briefcase,
+    },
+    {
+        title: "PRO Services",
+        description: "Efficient government liaison services for visas, licenses, and approvals.",
+        icon: FileText,
+    },
+    {
+        title: "Trademark Registration",
+        description: "Protect your brand with complete trademark registration support in Qatar.",
         icon: Briefcase,
     },
 ]
@@ -45,7 +50,7 @@ export function Services() {
                         transition={{ duration: 0.5, delay: 0.1 }}
                         className="text-muted-foreground max-w-2xl mx-auto"
                     >
-                        Choose from our extended range of services designed to help your business thrive in Qatar.
+                        We offer comprehensive consultancy services tailored to meet the needs of businesses operating in Qatar.
                     </motion.p>
                 </div>
 

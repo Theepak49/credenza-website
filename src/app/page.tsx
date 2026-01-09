@@ -107,10 +107,10 @@ export default function Home() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">About Credenza Business Consultancy</h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  We serve as a comprehensive business service hub, providing a range of legal services such as company registration, Translation, Notarization, and PRO Service Management to both small and large enterprises in Qatar.
+                  We are a professional business consultancy company based in Qatar, offering reliable and result-driven business solutions. Our mission is to support entrepreneurs and companies by simplifying complex legal and administrative processes related to business setup and operations.
                 </p>
                 <p className="text-muted-foreground mb-8">
-                  With MOCI approval and years of experience, we ensure a smooth journey for your business. Our mission is to provide high-quality corporate public relations services and support people and corporations in establishing enterprises in Qatar.
+                  With in-depth knowledge of Qatar’s commercial laws and procedures, we ensure smooth, compliant, and timely services for our clients across various industries.
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 mb-8">
