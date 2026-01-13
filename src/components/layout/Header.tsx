@@ -132,13 +132,13 @@ export function Header() {
                             </div>
                         ))}
                         <Link href="/contact">
-                            <Button>Get Started</Button>
+                            <Button className="cursor-pointer">Get Started</Button>
                         </Link>
                     </nav>
 
                     {/* Mobile Menu Toggle */}
                     <button
-                        className="flex items-center p-2 md:hidden text-foreground"
+                        className="flex items-center p-2 md:hidden text-foreground cursor-pointer hover:bg-white hover:text-primary transition duration-300 ease-in-out"
                         onClick={() => setIsOpen(!isOpen)}
                     >
                         {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -162,7 +162,7 @@ export function Header() {
                                                 <button
                                                     onClick={() => setServicesOpen(!servicesOpen)}
                                                     className={cn(
-                                                        "flex items-center justify-between w-full text-left text-sm font-medium hover:text-primary py-2",
+                                                        "flex items-center justify-between w-full text-left text-sm font-medium hover:text-primary py-2 cursor-pointer",
                                                         pathname === item.href ? "text-primary" : "text-muted-foreground"
                                                     )}
                                                 >
@@ -207,7 +207,7 @@ export function Header() {
                                 ))}
                                 <div className="pt-2">
                                     <Link href="/contact" onClick={() => setIsOpen(false)}>
-                                        <Button className="w-full">Get Started</Button>
+                                        <Button className="w-full cursor-pointer hover:bg-white hover:text-primary transition duration-300 ease-in-out">Get Started</Button>
                                     </Link>
                                 </div>
                             </div>

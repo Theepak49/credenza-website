@@ -111,7 +111,7 @@ export default function FeedbackPage() {
                                         />
                                     </div>
 
-                                    <Button type="submit" className="w-full">
+                                    <Button type="submit" className="w-full cursor-pointer hover:bg-white hover:text-primary transition duration-300 ease-in-out">
                                         Submit Feedback
                                     </Button>
                                 </form>

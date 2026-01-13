@@ -95,7 +95,7 @@ export default function BlogPage() {
                         <div className="text-center mt-12">
                             <p className="text-muted-foreground mb-4">More content coming soon!</p>
                             <Link href="/contact">
-                                <Button>Contact Us</Button>
+                                <Button className="cursor-pointer hover:bg-white hover:text-primary transition duration-300 ease-in-out">Contact Us</Button>
                             </Link>
                         </div>
                     </Reveal> */}

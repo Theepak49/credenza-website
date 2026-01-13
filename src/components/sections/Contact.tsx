@@ -80,7 +80,7 @@ export function Contact() {
                                 <label htmlFor="message" className="text-sm font-medium">Message</label>
                                 <Textarea id="message" placeholder="How can we help you?" className="min-h-[120px]" />
                             </div>
-                            <Button type="submit" className="w-full">Send Message</Button>
+                            <Button type="submit" className="w-full cursor-pointer">Send Message</Button>
                         </form>
                     </motion.div>
                 </div>

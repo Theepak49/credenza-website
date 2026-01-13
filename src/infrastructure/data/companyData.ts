@@ -16,7 +16,7 @@ export const companyValuesData = [
         id: "safety",
         icon: Shield,
         title: "SAFETY",
-        description: "Prioritizing the well-being of employees and stakeholders",
+        description: "Prioritizing the well-being of employees and stake holders",
     },
     {
         id: "integrity",

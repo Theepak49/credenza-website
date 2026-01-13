@@ -75,7 +75,7 @@ export default function Home() {
           <Reveal delay={0.5}>
             <div className="text-center mt-12">
               <Link href="/services">
-                <Button size="lg" className="gap-2">
+                <Button size="lg" className="gap-2 cursor-pointer hover:bg-white hover:text-primary transition duration-300 ease-in-out">
                   View All Services <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
@@ -133,7 +133,7 @@ export default function Home() {
                 </div>
 
                 <Link href="/about">
-                  <Button variant="default" className="gap-2">
+                  <Button variant="default" className="gap-2 cursor-pointer hover:bg-white hover:text-primary transition duration-300 ease-in-out">
                     Learn More About Us <ArrowRight className="h-4 w-4" />
                   </Button>
                 </Link>
@@ -242,7 +242,7 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact">
-                  <Button variant="secondary" size="lg" className="gap-2">
+                  <Button variant="secondary" size="lg" className="gap-2 cursor-pointer hover:bg-white hover:text-primary transition duration-300 ease-in-out">
                     Contact Us <ArrowRight className="h-4 w-4" />
                   </Button>
                 </Link>

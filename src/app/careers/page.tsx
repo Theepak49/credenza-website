@@ -110,7 +110,7 @@ export default function CareersPage() {
                                                 </span>
                                             </div>
                                         </div>
-                                        <Button className="flex items-center gap-2 shrink-0">
+                                        <Button className="flex items-center gap-2 shrink-0 cursor-pointer hover:bg-white hover:text-primary transition duration-300 ease-in-out">
                                             Apply Now
                                             <ArrowRight className="h-4 w-4" />
                                         </Button>
@@ -126,7 +126,7 @@ export default function CareersPage() {
                                 Don't see a position that fits? We're always looking for talented individuals.
                             </p>
                             <Link href="/contact">
-                                <Button variant="outline">Send Us Your CV</Button>
+                                <Button variant="outline" className="cursor-pointer">Send Us Your CV</Button>
                             </Link>
                         </div>
                     </Reveal>
