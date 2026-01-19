@@ -35,7 +35,7 @@ export default function ServicesPage() {
             </section>
 
             {/* Company Formation Section */}
-            <section className="py-20 bg-white">
+            <section className="py-20 bg-white" id="company-formation">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <Reveal>
@@ -94,7 +94,7 @@ export default function ServicesPage() {
             </section>
 
             {/* Section 1: How to set up a Business in Qatar */}
-            <section className="py-20 bg-white">
+            <section className="py-20 bg-white" id="business-setup">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
@@ -139,7 +139,7 @@ export default function ServicesPage() {
             </section>
 
             {/* Section 2: Local Sponsor Arrangement */}
-            <section className="py-20 bg-muted/30">
+            <section className="py-20 bg-muted/30" id="local-sponsor-arrangement">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <Reveal>
@@ -182,7 +182,7 @@ export default function ServicesPage() {
             </section>
 
             {/* Section 3: Branding Services */}
-            <section className="py-20 bg-white">
+            <section className="py-20 bg-white" id="branding-services">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
@@ -225,7 +225,7 @@ export default function ServicesPage() {
             </section>
 
             {/* Section 4: PRO Services in Qatar */}
-            <section className="py-20 bg-muted/30">
+            <section className="py-20 bg-muted/30" id="pro-services">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
@@ -270,7 +270,7 @@ export default function ServicesPage() {
             </section>
 
             {/* Section 5: Trademark Registration in Qatar */}
-            <section className="py-20 bg-white">
+            <section className="py-20 bg-white" id="trademark-registration">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <Reveal delay={0.2}>

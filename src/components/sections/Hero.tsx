@@ -17,7 +17,8 @@ const slides = [
             </>
         ),
         subtitle: "We provide comprehensive solutions for company formation, PRO services, and legal translation. Start your business journey with Credenza today.",
-        cta: "Get Started"
+        cta: "Get Started",
+        route: "/contact"
     },
     {
         id: 2,
@@ -29,7 +30,8 @@ const slides = [
             </>
         ),
         subtitle: "From licensing to office setup, we handle every detail of your business operations in Qatar, ensuring a smooth and compliant process.",
-        cta: "View Services"
+        cta: "View Services",
+        route: "/services"
     },
     {
         id: 3,
@@ -41,7 +43,8 @@ const slides = [
             </>
         ),
         subtitle: "Streamline your visa processing, document clearance, and government approvals with our experienced team of Public Relations Officers.",
-        cta: "Contact Us"
+        cta: "Contact Us",
+        route: "/contact"
     }
 ]
 
@@ -134,7 +137,7 @@ export function Hero() {
                         </p>
 
                         <div className="mt-10 flex justify-center gap-4">
-                            <Button size="lg" className="gap-2 cursor-pointer hover:bg-white hover:text-primary transition duration-300 ease-in-out" onClick={() => router.push('/contact')}>
+                            <Button size="lg" className="gap-2 cursor-pointer hover:bg-white hover:text-primary transition duration-300 ease-in-out" onClick={() => router.push(slides[currentSlide].route)}>
                                 {slides[currentSlide].cta} <ArrowRight className="h-4 w-4" />
                             </Button>
                         </div>

@@ -27,19 +27,21 @@ export function Header() {
 
     const navItems = [
         { name: "Home", href: "/" },
-        { name: "About", href: "/about" },
+        { name: "Company Formation", href: "/services#company-formation" },
         { name: "Services", href: "/services", hasDropdown: true },
         { name: "Blog", href: "/blog" },
         { name: "Careers", href: "/careers" },
-        { name: "Feedback", href: "/feedback" },
+        // { name: "Feedback", href: "/feedback" },
+        { name: "About", href: "/about" },
         { name: "Contact", href: "/contact" },
     ]
 
     const serviceItems = [
         { name: "Company Formation", href: "/services#company-formation" },
+        { name: "Local Sponsor Arrangement", href: "/services#local-sponsor-arrangement" },
         { name: "PRO Services", href: "/services#pro-services" },
-        { name: "Certificate Attestation", href: "/services#attestation" },
-        { name: "Legal Services", href: "/services#legal" },
+        { name: "Legal Services", href: "/services#business-setup" },
+        { name: "Trademark Registration", href: "/services#trademark-registration" }
     ]
 
     return (
@@ -50,11 +52,15 @@ export function Header() {
                     <div className="flex gap-6">
                         <div className="flex items-center gap-2">
                             <Phone className="h-3 w-3" />
-                            <span>+974 3012 9065</span>
+                            <span><a href={`tel:+97430129065`} aria-label="Call Credenza Qatar">
+                                +974 3012 9065
+                            </a></span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Mail className="h-3 w-3" />
-                            <span>info@credenza.com</span>
+                            <span><a href={`mailto:info@credenza.com`} className="hover:text-white transition-colors">
+                                info@credenza.com
+                            </a></span>
                         </div>
                     </div>
                     <div className="flex items-center gap-3">

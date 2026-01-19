@@ -39,8 +39,12 @@ export function Footer() {
                         <h3 className="font-bold mb-4 text-white">Contact</h3>
                         <ul className="space-y-2 text-sm text-gray-400">
                             <li>Doha, Qatar</li>
-                            <li>info@credenza.com</li>
-                            <li>+974 3012 9065</li>
+                            <li><a href={`mailto:info@credenza.com`} className="hover:text-white transition-colors">
+                                info@credenza.com
+                            </a></li>
+                            <li><a href={`tel:+97430129065`} aria-label="Call Credenza Qatar">
+                                +974 3012 9065
+                            </a></li>
                         </ul>
                     </div>
                 </div>
